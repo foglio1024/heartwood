@@ -2,7 +2,7 @@
 	"files": {
 		"S_COMPLETED_MISSION_INFO.1.def": "084b2c59b577feb5c1c859eace348ea2ba6433b6f47294bec0588e1a81d56f9b",
 		"index.js": "740f36bcd5830d65a90d89ffeb4940524b633c340cffeb3cb5b1687e7409c30e",
-		"module.json": "542b64f93bfcd1ac7528841afadebcab9e492a62521468c4ee374638f8491d41"
+		"module.json": "bbc3d218a5a5005e85571d91c04a9b7bb8b313c1cbe6375c852ef630059a2bb6"
 	},
 	"defs": {
 		"S_COMPLETED_MISSION_INFO": [1,43612]
