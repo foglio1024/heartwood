@@ -3,5 +3,9 @@
 	"name": "Heartwood",
 	"author": "Foglio",
     "description": "WARNING: this mod marks some of your quests as not completed. This might cause unwanted side effects, so use it at your own risk.",
-	"disableAutoUpdate": false
+	"disableAutoUpdate": false,
+	"options": {
+		"settingsFile": "config.json",
+		"settingsMigrator": "settings-migrator.js"
+	}
 }

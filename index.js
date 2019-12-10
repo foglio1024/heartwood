@@ -1,4 +1,4 @@
-const path = require('path'); 
+const path = require('path');
 class Heartwood
 {
     constructor(mod)
@@ -8,6 +8,14 @@ class Heartwood
             mod.log('This mod only supports EU version of the game.');
             return;
         }
+
+        mod.command.add('heartwood', () =>
+        {
+            mod.settings.enabled = !mod.settings.enabled;
+            mod.command.message(`<font color="#cccccc">Mod </font><font color="#${(mod.settings.enabled ? '42F5AD' : 'F05164')}">${(mod.settings.enabled ? 'en' : 'dis')}abled</font><font color="#cccccc">. Relog to character selection and back to apply the change.</font>`);
+        });
+
+        if (!mod.settings.enabled) return;
         mod.dispatch.addDefinition('S_COMPLETED_MISSION_INFO', 1, path.join(mod.rootFolder, 'S_COMPLETED_MISSION_INFO.1.def'));
         mod.dispatch.addOpcode('S_COMPLETED_MISSION_INFO', 43612);
         const exclusions = [47957, 50601, 50602, 50603];
