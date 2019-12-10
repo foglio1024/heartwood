@@ -1,0 +1,3 @@
+array quests
+-uint16 questId
+-uint16 unk # taskId?
