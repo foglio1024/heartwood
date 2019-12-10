@@ -1,9 +1,9 @@
 {
 	"files": {
-		"index.js": "f751098372b764e1397f7fce0fb3234cc553c2af42d9c034f45c05858792069f",
+		"index.js": "740f36bcd5830d65a90d89ffeb4940524b633c340cffeb3cb5b1687e7409c30e",
 		"module.json": "542b64f93bfcd1ac7528841afadebcab9e492a62521468c4ee374638f8491d41"
 	},
 	"defs": {
-		"S_COMPLETED_MISSION_INFO": 1
+		"S_COMPLETED_MISSION_INFO": [1,43612]
 	}
 }
